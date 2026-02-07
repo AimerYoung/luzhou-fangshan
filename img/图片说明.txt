@@ -1,0 +1,125 @@
+# 图片文件说明 — 替换时请保持文件名不变
+
+命名均与内容相关，便于在网上搜索对应图片后替换。
+
+========== 横幅 / 大图 ==========
+
+shouye-banner.jpg
+  含义：首页顶部横幅（方山景区全景）
+  使用位置：index.html
+  建议搜索：泸州方山 风景、方山景区 横幅、四川方山 山水 航拍
+
+guanyu-banner.jpg
+  含义：关于景区页顶部 / 观云山庄卡片
+  使用位置：guanyu.html、canyin.html（观云山庄）
+  建议搜索：方山景区 航拍、泸州方山 全景、山景 旅游
+
+========== 首页景点卡片 ==========
+
+heilianguanyin1.png
+  含义：黑脸观音卡片图
+  使用位置：index.html（黑脸观音）
+  建议搜索：黑脸观音 方山
+
+yunfengsi1.png
+  含义：云峰寺卡片图
+  使用位置：index.html（云峰寺）
+  建议搜索：云峰寺 方山、方山 寺庙
+
+bodaoling1.jpeg
+  含义：薄刀岭卡片图（观云海、日出）
+  使用位置：index.html（薄刀岭卡片）、xiangqing-bodaoling.html（详情大图）
+  建议搜索：薄刀岭 方山、方山 云海、方山 日出
+
+bodaoling2.jpeg
+  含义：薄刀岭缩略图（精选景点）
+  使用位置：jingdian.html（薄刀岭）
+  建议搜索：薄刀岭 方山、方山 云海
+
+========== 首页游客评价头像 ==========
+
+avatar1.jpg ~ avatar5.jpg
+  含义：游客评价区头像
+  使用位置：index.html（评价区）
+  建议搜索：头像 默认、用户 圆形
+
+========== 餐饮住宿 ==========
+
+minsu.png
+  含义：林隐民宿配图
+  使用位置：canyin.html（林隐民宿）
+  建议搜索：云峰寺 方山、山居民宿 风景
+
+larouguan.png
+  含义：方山老腊肉馆配图
+  使用位置：canyin.html（方山老腊肉馆）
+  建议搜索：腊肉 农家菜、方山 美食
+
+quanshui-douhuafan.jpg
+  含义：泉水豆花饭配图
+  使用位置：canyin.html（泉水豆花饭）
+  建议搜索：泉水豆花饭 方山、泉水豆花饭 泸州
+
+========== 精选景点缩略图 ==========
+
+fangshan-xueji.webp
+  含义：方山雪霁
+  使用位置：jingdian.html、xiangqing-fangshanxueji.html
+  建议搜索：方山雪霁 泸州八景
+
+yunfengsi2.png
+  含义：云峰寺
+  使用位置：jingdian.html
+  建议搜索：云峰寺 方山
+
+heilianguanyin2.png
+  含义：黑脸观音
+  使用位置：jingdian.html
+  建议搜索：黑脸观音 方山
+
+qianshouqianyan1.png
+  含义：千手千眼观音
+  使用位置：jingdian.html
+  建议搜索：千手千眼观音 方山
+
+xianfengshi.jpeg
+  含义：仙峰石（精选景点缩略图）
+  使用位置：jingdian.html
+  建议搜索：仙峰石 方山、方山 奇石
+
+guangwuci.png
+  含义：光武祠（精选景点缩略图）
+  使用位置：jingdian.html
+  建议搜索：光武祠 方山、汉光武帝 祠
+
+========== 景点详情页配图（与精选缩略图共用或单独）==========
+
+详情页实际使用：heilianguanyin2.png、yunfengsi2.png、bodaoling1.jpeg、qianshouqianyan1.png、xianfengshi.jpeg、guangwuci.png、fangshan-xueji.webp（见上方精选景点缩略图）
+
+========== 地理环境 ==========
+
+dili-weizhi.png
+  含义：位置境域配图
+  使用位置：dili.html
+  建议搜索：方山 江阳区 地图、泸州方山 位置、方山雪霁 航拍
+
+dili-qihou.png
+  含义：气候特点配图
+  使用位置：dili.html
+  建议搜索：泸州 气候、四川 温带季风气候、泸州 气温
+
+ziran.webp
+  含义：自然资源（天池、山林、薄刀岭）
+  使用位置：dili.html
+  建议搜索：方山 天池、九龙吐水、方山 森林、薄刀岭
+
+========== 景区相册（tuji.html）==========
+
+img1.jpg ~ img16.jpg
+  含义：景区相册网格图片
+  使用位置：tuji.html
+  建议搜索：泸州方山 风景、方山景区 实景
+
+========== 说明 ==========
+- 替换时直接覆盖同名文件即可，不要改文件名。
+- 站点仅保留 7 个真实景点：方山雪霁、云峰寺、黑脸观音、千手千眼观音、仙峰石、光武祠、薄刀岭。
