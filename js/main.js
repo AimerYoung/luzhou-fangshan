@@ -17,7 +17,8 @@
                 var tag = this.getAttribute('data-tag') || '';
                 items.forEach(function (item) {
                     var itemTag = item.getAttribute('data-tag') || '';
-                    item.style.display = !tag || itemTag === tag ? '' : 'none';
+                    var el = item.closest('.col') || item;
+                    el.style.display = !tag || itemTag === tag ? '' : 'none';
                 });
             });
         });

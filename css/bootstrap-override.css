@@ -1,0 +1,106 @@
+/* Bootstrap 覆盖 - 保持泸州方山景区品牌色与风格，适配手机/平板/PC */
+:root {
+    --river-blue: #008397;
+}
+
+/* 固定导航栏下方留白，避免内容被遮挡 */
+body {
+    padding-top: 4rem;
+}
+
+/* 导航栏：保持原有风格 */
+.navbar-scenic {
+    background: rgba(255, 255, 255, 0.95) !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 0.75rem 0;
+}
+
+.navbar-scenic .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--river-blue) !important;
+}
+
+.navbar-scenic .nav-link {
+    color: #374151 !important;
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.navbar-scenic .nav-link:hover,
+.navbar-scenic .nav-link.active {
+    color: var(--river-blue) !important;
+    font-weight: 700;
+}
+
+.navbar-scenic .btn-cta {
+    background: var(--river-blue);
+    color: #fff !important;
+    padding: 0.5rem 1.25rem;
+    border-radius: 9999px;
+    font-size: 0.875rem;
+    font-weight: 700;
+}
+
+.navbar-scenic .btn-cta:hover {
+    background: #006d7a;
+    color: #fff !important;
+}
+
+/* 移动端折叠菜单样式 */
+.navbar-scenic .navbar-collapse {
+    margin-top: 0.5rem;
+}
+
+@media (min-width: 992px) {
+    .navbar-scenic .navbar-collapse {
+        margin-top: 0;
+    }
+}
+
+/* 汉堡按钮 */
+.navbar-scenic .navbar-toggler {
+    border-color: rgba(0, 131, 151, 0.3);
+    padding: 0.35rem 0.65rem;
+}
+
+.navbar-scenic .navbar-toggler:focus {
+    box-shadow: 0 0 0 2px rgba(0, 131, 151, 0.25);
+}
+
+/* 页脚在 Bootstrap 容器内居中 */
+.footer .container {
+    max-width: 80rem;
+}
+
+/* 页脚链接：小屏多行、平板/PC 单行 */
+.footer-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .footer-links {
+        gap: 1rem 2rem;
+    }
+}
+
+/* 与 Bootstrap row 同用时保留 flex 布局，覆盖 main.css 的 grid */
+.row.attraction-grid,
+.row.gallery-grid,
+.row.food-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 小屏内容区内边距 */
+@media (max-width: 767px) {
+    .about-body {
+        padding: 1.5rem;
+    }
+    .detail-content {
+        padding: 1.25rem;
+    }
+}

@@ -16,7 +16,7 @@ body {
     background: #fff;
 }
 
-/* ----- Nav ----- */
+/* ----- Nav（已由 Bootstrap navbar 替代，保留兼容） ----- */
 .nav {
     position: fixed;
     top: 0;

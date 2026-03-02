@@ -5,34 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>千手千眼观音 - 景点详情</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/com.css">
+    <link rel="stylesheet" href="css/bootstrap-override.css">
 </head>
 
 <body>
-    <nav class="nav">
-        <div class="nav-inner">
-            <a href="index.html" class="nav-logo">泸州方山</a>
-            <div class="nav-links">
-                <a href="index.html">首页</a>
-                <a href="jingdian.html">精选景点</a>
-                <a href="dili.html">地理环境</a>
-                <a href="wenhuahuodong.html">文化活动</a>
-                <a href="canyin.html">餐饮住宿</a>
-                <a href="tuji.html">景区相册</a>
-                <a href="jiaotong.html">交通指南</a>
-                <a href="guanyu.html">关于景区</a>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top navbar-scenic">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">泸州方山</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="展开菜单">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 gap-lg-3">
+                    <li class="nav-item"><a class="nav-link" href="index.html">首页</a></li>
+                    <li class="nav-item"><a class="nav-link" href="jingdian.html">精选景点</a></li>
+                    <li class="nav-item"><a class="nav-link" href="dili.html">地理环境</a></li>
+                    <li class="nav-item"><a class="nav-link" href="wenhuahuodong.html">文化活动</a></li>
+                    <li class="nav-item"><a class="nav-link" href="canyin.html">餐饮住宿</a></li>
+                    <li class="nav-item"><a class="nav-link" href="tuji.html">景区相册</a></li>
+                    <li class="nav-item"><a class="nav-link" href="jiaotong.html">交通指南</a></li>
+                    <li class="nav-item"><a class="nav-link" href="guanyu.html">关于景区</a></li>
+                </ul>
+                <a href="guanyu.html" class="btn btn-cta">立即购票</a>
             </div>
-            <a href="guanyu.html" class="nav-cta">立即购票</a>
         </div>
     </nav>
     <header class="detail-header">
-        <div class="detail-header-inner">
+        <div class="container detail-header-inner">
             <a href="jingdian.html" class="detail-back" aria-label="返回">←</a>
             <h1 style="font-size:1.25rem;font-weight:700;margin:0;">景点详情</h1>
         </div>
     </header>
-    <main class="detail-main">
+    <main class="detail-main container">
         <article class="detail-card">
             <img src="img/qianshouqianyan1.png" alt="千手千眼观音">
             <div class="detail-content">
@@ -56,7 +63,7 @@
         </article>
     </main>
     <footer class="footer">
-        <div>
+        <div class="container">
             <h2>泸州方山景区</h2>
             <div class="footer-links">
                 <a href="guanyu.html">关于我们</a>
@@ -72,6 +79,7 @@
             <p class="footer-copy">&copy; 2024 泸州方山景区 版权所有</p>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 
